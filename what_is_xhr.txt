@@ -1,0 +1,10 @@
+HTML (Hypertext Markup Language), bir web sayfasının yapısını ve içeriğini tanımlamak için kullanılan bir işaretleme dilidir. Ancak, XHR (XMLHttpRequest), HTML'nin bir parçası değildir. XHR, JavaScript tarafından kullanılan bir nesnedir ve web sayfalarında asenkron veri alışverişi için kullanılır.
+XHR, web tarayıcılarında bulunan bir JavaScript nesnesidir ve sunucularla veri alışverişi yapmak için kullanılır. Bu, web sayfalarının dinamik ve etkileşimli olmasını sağlar. XHR kullanarak, web sayfaları şunları yapabilir:
+1. Sunucudan veri alabilirler: Örneğin, JSON veya XML formatında veri çekebilirler. Bu verilerle sayfayı güncelleyebilirler.
+2. Sunucuya veri gönderebilirler: Kullanıcıların form bilgilerini sunucuya göndermek için veya diğer veri gönderme amaçları için kullanılabilirler.
+XHR kullanımı, temelde şu adımları içerir:
+1. Bir XHR nesnesi oluşturma: JavaScript kodu ile bir XHR nesnesi oluşturulur.
+2. İstek gönderme: XHR nesnesi, sunucuya bir HTTP isteği gönderir. Bu istek, belirli bir URL'ye ve HTTP yöntemine sahip olabilir (GET, POST, vb.).
+3. Sunucudan gelen yanıtı işleme: Sunucu yanıtı alındığında, JavaScript kodu bu yanıtı işleyebilir. Genellikle yanıt JSON veya XML gibi veri formatlarında gelir.
+4. İşlenen veriyi kullanma: İşlenen veri, sayfa içinde kullanılır. Örneğin, bir tabloya dökülebilir veya kullanıcıya gösterilebilir.
+XHR, web geliştiricileri tarafından Ajax (Asynchronous JavaScript and XML) uygulamaları oluşturmak için yaygın bir şekilde kullanılır. Sayfaların kullanıcı etkileşimi olmadan veri alışverişi yapmasına ve güncellemesine olanak tanır. Ancak günümüzde fetch API gibi daha modern ve kullanımı kolay veri alışverişi yöntemleri de mevcuttur.
