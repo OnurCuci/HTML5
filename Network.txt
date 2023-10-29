@@ -1,0 +1,29 @@
+"Network" altındaki başlıklar, genellikle bir yazılım geliştirme veya bilgisayar ağları bağlamında kullanılır. Network başlıkları ağlar ve ağ iletişimi hakkında spesifik bilgileri içerirler.
+ve ağ geliştirme veya yönetimi sırasında önemlidirler. Yaygın Network başlıklarının nasıl kullanılacağına dair açıklamalar:
+
+1-IP (Internet Protocol) Adresleri: IP adresleri, cihazların ve sunucuların ağ üzerinde benzersiz bir tanımlayıcısıdır. IP adresleri, ağdaki cihazların kimliklerini
+  belirlemek için kullanılır. Bir cihazın IP adresini belirlemek ve ayarlamak için, ağ ayarları ve ağ yönetim araçları kullanılabilir.
+
+1-DNS (Domain Name System): DNS, IP adreslerini insanların anlayabileceği alan adlarına (örneğin www.example.com)çevirir. DNS ayarlarını yapılandırmak veya 
+  alan adı kayıtlarını yönetmek için DNS sunucuları ve DNS hizmet sağlayıcıları kullanılır.
+
+3-Protokoller:Ağ iletişimi için farklı protokoller (örneğin HTTP,FTP,TCP,UDP)kullanılır. Bu protokoller veri iletimi ve iletişim kurallarını tanımlar.
+Protokollerin tanımına örnekler:
+ -HTTP: web sayfalarının tarayıcılara gönderilmesi için kulanılır.
+ -FTP: Dosyaların ağ üzerinde aktarılması için kullanılır.
+ -TCP ve UDP: Veri paketlerinin iletimi ve ağdaki bağlantıların yönetilmesi için kullanılır
+
+4-Ağ Güvenliği: Ağlarınızı zararlı saldırılardan korumanıza yardımcı olur. Ağ güvenlik başlıkları, güvenlik duvarları, saldırı tespit sistemleri,
+güvenlik sertifikaları ve şifreleme gibi araçlar içerir.
+
+5-Ağ Topolojileri: Cihazların ve bağlamtıların nasıl düzenlendiğini gösterir. Örneğin, ağda bulunan cihazların fiziksel veya mantıksal düzenlemeleri hakkında bilgi sağlar.
+Örneğin yıldız topolojisi, halka topolojisi veya ağaç topolojisi gibi farklı ağ düzenlemelerini ifade edebilir.
+
+6-Ağ Cihazları: Ağda kullanılan cihazlar, yönlendiriciler, anahtarlar, modemler, hub'lar ve erişim noktaları gibi araçlar içerir. Bu cihazlar ağ trafiği yönlendirme,
+  anahtarlamaları sağlama, kablosuz erişim sunma ve daha fazlası için kullanılır.
+
+7-Ağ İletim Sistemleri(Network Operating Systems): Ağların yönetimi ve işletilmesi için kullanılan işletim ssistemleridir.
+Örneğin arasında Windows server, Linux tabanlı NOS'lar ve Cisco IOS gibi işletim sistemleri yer alır.
+
+Bu başlıklar, ağ geliştirme, yönetimi ve sorun giderme süreçlerinde kullanılırlar. Network başlıklarını belirli bir görevi yerine getirmek veya 
+ağın performansını iyileştirmek için kullanmak genellikle ağ yöneticileri ve sistem yöneticilerinin sorumluluğundadır.
