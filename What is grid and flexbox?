@@ -1,0 +1,12 @@
+Web tasarımında kullanılan iki farklı düzenleme sistemini ifade eder. Her ikisi de web sayfalarını düzenlemek ve içerikleri yerleştirmek içiin kullanılan CSS teknikleridir.
+Kısa bir açıklama:
+
+1. Grid Düzeni (CSS Grid Layout): CSS Grid, Bir web sayfasının yapısını iki boyutlu bir ızgara veya tablo gibi düşünmemizi sağlar. Yani, hem yatay hemde dikey olarak hücreler 
+oluşturabilir ve bu hücrelerde içerikleri yerleştirebilirsiniz. CSs Grid, karmaşık düzenleri oluşturmak için son derece güçlü bir araçtır ve özellikle web sayfasının büyük bölgelerini
+veya bileşenlerini yönetmek için kullanılır.
+
+2.Flexbox (Flex kutuları): Özellikle tek bir boyutta (genellikle yatay) sıralanmış ögeleri düzenlemek için kullanılır. Bu ögelerin sayısına göre otomatik olarak genişleyebildiği
+veya daraldığıbir düzenleme sistemidir. Flexbox, özellikle liste ögeleri, menüler veya yatay düzen gerektiren bileşemler için idealdir.
+
+Her iki yöntem de modern web tasarımında yaygın olarak kullanılmaktadır ve her birinin kendşne özgü avantajları vardır. İhtiyacınızza ve projenizin gereksinimine bağlı olarak
+Grid veya Flexbox'i seçebilirsiniz. grid, karmaşık ve çok boyutlu düzenler oluştururken, Flexbox ögelerin yatay düzlemde esnek bir şekilde düzenlenmesini sağlar.
