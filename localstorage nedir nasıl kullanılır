@@ -1,0 +1,62 @@
+LOcalStorage nedir?
+
+LocalStorage, bir web sitesinin veya uygulamanın, tarayıcı kapansa bile kullanıcının bilgisayarında veri depolayabilmesini
+sağlayan bir JavaScript API'sidir. LocalStorage, verileri key/value çiftleri olarak depolar.
+
+LocalStorage nasıl kullanılır?
+
+LocalStoragei kullanmak için, önce "localStorage" nesnesine erişmemiz gerekir. Bunu "window.localStorage"
+özelliğini kullanarak yapabilirsiniz.
+          JavaScript
+          const localStorage = window.localStorage;
+
+"localstorage" nesnesine veri eklemek için, "setItem()" yöntemini kullanabilirsiniz. Bu yöntem, bir key bir value parametresi alır.
+          JavaScript
+          localStorage.setItem("name", "Michael");
+Bu kod, "name" anahtarına "michael" değerini kaydeder.
+
+"localStorage" nesnesindeki verileri okumak için, "getItem()" yöntemini kullanabilirsiniz. Bu yöntem, bir key parametresi alır.
+          JavaScript
+          const name = localStorage.getItem("name");
+Bu kod, "name" anahtarına karşılık gelen değeri döndürür.
+
+"localStorage" nesnesindeki verileri güncellemek için, "setItem()"yöntemini kullanabilirsiniz. Bu yöntemi kullanarak, aynı anahtara karşılık 
+gelen değeri değiştirebilirsiniz.
+          JavaScript
+          localStorage.setItem("name", "Michael");
+Bu kod, "name" anahtarına "michael" değerini atar.
+
+"localStorage" nesnesindeki verileri silek için, "removeItem()" yöntemini kullanabilirsiniz.bu yöntem, bir key parametresi alır.
+          JavaScript
+          localStorage.removeItem("name");
+Bu kod, "name" anahtarınakarşılık gelen değeri siler.
+
+LocalStorage'ın avantajları
+
+LocalStorage'ın bazı avantajları şunlardır:
+  • Veriler, tarayıcı kapansa bile kullanıcının bilgisayarında kalır.
+   • Veriler, birden çok sayfa veya uygulama tarafından kullanılabilir.
+    • Veriler, JavaScript kullanılarak kolayca erişilebilir ve değiştirilebilir
+
+LocalStorage'ın dezavantajları
+
+LocalStorage'ın bazı dez avantajları şunlardır:
+  • Veriler, kullanıcı tarafından silinebilir ve değiştirilebilir.
+   • Veriler, Büyük miktarda veri depolamak için uygun değildir.
+
+LocalStorage örnek kullanımları
+
+LocalStorage, çeşitli amaçlar için kullanılabilir. Örneğin, aşağıdakiler için kuullanılabilir:
+  •Kullanıcı tercihlerini kaydetmek için. Örneğin bir web sitesi, kullanıcının tercihlerini hatırlamak için
+   LOcalStorage'ı kullanabilir.
+
+    • Yazılım güncellemelerini veya diğer önemli bilgileri kaydetmek için. Örneğin, bir web sitesi, kullanıcıları yazılım 
+      güncellemeleri veya diğer önemli bilgiler hakkında bilgilendirmek için LocalStroge'ı kullanabilir.
+
+      • Oyun verilerini kaydetmnek için. Örneğin, bir çevrimiçi oyun, kullanıcıların oyun ilerlemesini kaydetmek için
+        LocalStorage'ı kullanabilir.
+
+Sonuç
+
+LocalStorage, web siteleri ve uygulamalar için kullanışlı bir araçtır. LocalStorage kullanarak, kullanıcıların tercihlerini
+ kaydedebilir, yazılım güncellemelerini veya diğer önemnli bilgileri iletebilir ve oyun önerilerini kaydedebilirsiniz.
