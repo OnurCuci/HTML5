@@ -1,0 +1,48 @@
+Ardunio ile 1000ms ve 750ms'de bir yanan bir program oluşturmak için kullanılması gereken kod:
+    // Led pinini tanımlayın
+    void led1000ms() {
+     while (true) {
+      // Ledi yak
+      digitalWrite(ledPin, HIGH);
+      // 1000ms bekle 
+      delay(1000);
+      // Ledi söndür
+      DigitalWrite(ledPin, LOW);
+      // 1000ms bekle
+      delay(1000);
+      }
+    }
+
+// 750ms'de bir çalışan thread
+  void led750ms() {
+    while (true) {
+      // Led'i yak
+      digitalwrite(ledPin, HIGH);
+      // 750ms bekle
+      delay(750);
+      // Led'i söndür
+      digitalrite(ledPin, LOW);
+      //  250ms için bekle
+      delay(250);
+    }
+  }
+
+    // Program başlangıcında threadleri başlatın
+    void setup() {
+      // Led pinini çıkış olarak ayarlayın
+      pinMode(ledPin, OUTPUT)
+      xTaskCreate(led1000ms, "led1000ms", 1024, NULL , 1 NULL);
+      xTaskCreate(led750ms, "led750ms" , 1024, NULL , 1 NULL);
+  }
+  // Program sürekli çalışır
+  void loop() {}
+
+Bu kod, iki tane thread oluşturur, Birinci thread, 1000ms'de bir led'i yaklar ve söndürür.
+İkinci thread ise, 750ms'de bir led'i yakar ve sönddürür
+
+Bu kodları Ardunio IDE'de çalıştırmak için şu adımları izleyin:
+  1. Ardunio IDE ı açın.
+  2. Yukarıdaki kodları kopyalayın ve "main.ccp" dosyasına yapıştırın.
+  3. Ardunio uno kartını bilgisayara bağlayın.
+  4. "upload" düğmwsine tıklayın.
+
